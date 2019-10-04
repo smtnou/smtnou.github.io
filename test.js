@@ -20,8 +20,6 @@ var countDownEnd = 1500000;
 		  if (distance < 0) {
 		    clearInterval(x);
 		    document.getElementById("timerLabel").innerHTML = "Hết giờ!";
-		    //document.getElementById("testForm").sub
-		    //document.getElementById("btnSubmit").click();
 		    window.open("https://www.facebook.com/sangmaitennguoiou/", "_self");
 		  }
 		}, 1000);
