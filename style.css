@@ -1,0 +1,83 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: red;
+}
+
+#timerLabel {
+	background: orange;
+	padding: 10px 7.5px 4.5px 7.5px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	position: fixed;
+	top: 50px;
+	right: 0;
+	width: 80px;
+	height: 35px;
+}
+
+.mainForm {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+#alertTab {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	color: white;
+	background: orange;
+	border-radius: 20px;
+	display: none;
+	border: 2px solid white;
+}
+
+#alertTab #closeAlertTab {
+	padding: 10px;
+	color: red;
+	font-weight: bold;
+	cursor: pointer;
+	background: yellow;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid white;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#alertTab #closeAlertTab:hover {
+	background: red;
+	color: yellow;
+}
+
+iframe {
+  	width: 650px;
+  	height: 700px;
+  }
+
+@media only screen and (max-width: 650px) {
+  iframe {
+  	width: 480px;
+  	height: 700px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  iframe {
+  	width: 320px;
+  	height: 500px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  iframe {
+  	width: 300px;
+  	height: 500px;
+  }
+}
