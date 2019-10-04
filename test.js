@@ -1,4 +1,4 @@
-var countDownEnd = 8000;
+var countDownEnd = 1500000;
 		var countDownStart = 0;
 
 		// Update the count down every 1 second
@@ -13,7 +13,7 @@ var countDownEnd = 8000;
 		  // Display the result in the element with id="timerLabel"
 		  document.getElementById("timerLabel").innerHTML = minutes + "m " + seconds + "s ";
 
-		  if (distance < 5001 && distance > 4999) {
+		  if (distance < 60001 && distance > 59999) {
 		  	document.getElementById("alertTab").style.display = "block";
 		  }
 
